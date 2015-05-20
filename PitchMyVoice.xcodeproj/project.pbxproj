@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3A16D51B04E33A00562CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A16D41B04E33A00562CEE /* AppDelegate.swift */; };
+		3B3A16D71B04E33A00562CEE /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A16D61B04E33A00562CEE /* RecordAudioViewController.swift */; };
+		3B3A16DA1B04E33A00562CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A16D81B04E33A00562CEE /* Main.storyboard */; };
+		3B3A16DC1B04E33A00562CEE /* microphone.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A16DB1B04E33A00562CEE /* microphone.xcassets */; };
+		3B3A16DF1B04E33A00562CEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A16DD1B04E33A00562CEE /* LaunchScreen.xib */; };
+		3B3A16EB1B04E33A00562CEE /* PitchMyVoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A16EA1B04E33A00562CEE /* PitchMyVoiceTests.swift */; };
+		3B8AC21A1B07998C00099387 /* PlayAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AC2191B07998C00099387 /* PlayAudioViewController.swift */; };
+		3B8AC21E1B08B03E00099387 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8AC21D1B08B03E00099387 /* RecordedAudio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B3A16E51B04E33A00562CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B3A16C71B04E33A00562CEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B3A16CE1B04E33A00562CEE;
+			remoteInfo = PitchMyVoice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B3A16CF1B04E33A00562CEE /* PitchMyVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchMyVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3A16D31B04E33A00562CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3A16D41B04E33A00562CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B3A16D61B04E33A00562CEE /* RecordAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
+		3B3A16D91B04E33A00562CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B3A16DB1B04E33A00562CEE /* microphone.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = microphone.xcassets; sourceTree = "<group>"; };
+		3B3A16DE1B04E33A00562CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B3A16E41B04E33A00562CEE /* PitchMyVoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchMyVoiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3A16E91B04E33A00562CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B3A16EA1B04E33A00562CEE /* PitchMyVoiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchMyVoiceTests.swift; sourceTree = "<group>"; };
+		3B8AC2191B07998C00099387 /* PlayAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayAudioViewController.swift; path = ../PlayAudioViewController.swift; sourceTree = "<group>"; };
+		3B8AC21D1B08B03E00099387 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B3A16CC1B04E33A00562CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3A16E11B04E33A00562CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3A16C61B04E33A00562CEE = {
+			isa = PBXGroup;
+			children = (
+				3B3A16D11B04E33A00562CEE /* PitchMyVoice */,
+				3B3A16E71B04E33A00562CEE /* PitchMyVoiceTests */,
+				3B3A16D01B04E33A00562CEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B3A16D01B04E33A00562CEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A16CF1B04E33A00562CEE /* PitchMyVoice.app */,
+				3B3A16E41B04E33A00562CEE /* PitchMyVoiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B3A16D11B04E33A00562CEE /* PitchMyVoice */ = {
+			isa = PBXGroup;
+			children = (
+				3B8AC2191B07998C00099387 /* PlayAudioViewController.swift */,
+				3B3A16D41B04E33A00562CEE /* AppDelegate.swift */,
+				3B3A16D61B04E33A00562CEE /* RecordAudioViewController.swift */,
+				3B8AC21D1B08B03E00099387 /* RecordedAudio.swift */,
+				3B3A16D81B04E33A00562CEE /* Main.storyboard */,
+				3B3A16DB1B04E33A00562CEE /* microphone.xcassets */,
+				3B3A16DD1B04E33A00562CEE /* LaunchScreen.xib */,
+				3B3A16D21B04E33A00562CEE /* Supporting Files */,
+			);
+			path = PitchMyVoice;
+			sourceTree = "<group>";
+		};
+		3B3A16D21B04E33A00562CEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A16D31B04E33A00562CEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B3A16E71B04E33A00562CEE /* PitchMyVoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A16EA1B04E33A00562CEE /* PitchMyVoiceTests.swift */,
+				3B3A16E81B04E33A00562CEE /* Supporting Files */,
+			);
+			path = PitchMyVoiceTests;
+			sourceTree = "<group>";
+		};
+		3B3A16E81B04E33A00562CEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A16E91B04E33A00562CEE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B3A16CE1B04E33A00562CEE /* PitchMyVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3A16EE1B04E33A00562CEE /* Build configuration list for PBXNativeTarget "PitchMyVoice" */;
+			buildPhases = (
+				3B3A16CB1B04E33A00562CEE /* Sources */,
+				3B3A16CC1B04E33A00562CEE /* Frameworks */,
+				3B3A16CD1B04E33A00562CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PitchMyVoice;
+			productName = PitchMyVoice;
+			productReference = 3B3A16CF1B04E33A00562CEE /* PitchMyVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B3A16E31B04E33A00562CEE /* PitchMyVoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3A16F11B04E33A00562CEE /* Build configuration list for PBXNativeTarget "PitchMyVoiceTests" */;
+			buildPhases = (
+				3B3A16E01B04E33A00562CEE /* Sources */,
+				3B3A16E11B04E33A00562CEE /* Frameworks */,
+				3B3A16E21B04E33A00562CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B3A16E61B04E33A00562CEE /* PBXTargetDependency */,
+			);
+			name = PitchMyVoiceTests;
+			productName = PitchMyVoiceTests;
+			productReference = 3B3A16E41B04E33A00562CEE /* PitchMyVoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B3A16C71B04E33A00562CEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Aras Senova";
+				TargetAttributes = {
+					3B3A16CE1B04E33A00562CEE = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HZ7M38GPM7;
+					};
+					3B3A16E31B04E33A00562CEE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3B3A16CE1B04E33A00562CEE;
+					};
+				};
+			};
+			buildConfigurationList = 3B3A16CA1B04E33A00562CEE /* Build configuration list for PBXProject "PitchMyVoice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B3A16C61B04E33A00562CEE;
+			productRefGroup = 3B3A16D01B04E33A00562CEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B3A16CE1B04E33A00562CEE /* PitchMyVoice */,
+				3B3A16E31B04E33A00562CEE /* PitchMyVoiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B3A16CD1B04E33A00562CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3A16DA1B04E33A00562CEE /* Main.storyboard in Resources */,
+				3B3A16DF1B04E33A00562CEE /* LaunchScreen.xib in Resources */,
+				3B3A16DC1B04E33A00562CEE /* microphone.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3A16E21B04E33A00562CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B3A16CB1B04E33A00562CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8AC21E1B08B03E00099387 /* RecordedAudio.swift in Sources */,
+				3B3A16D71B04E33A00562CEE /* RecordAudioViewController.swift in Sources */,
+				3B3A16D51B04E33A00562CEE /* AppDelegate.swift in Sources */,
+				3B8AC21A1B07998C00099387 /* PlayAudioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3A16E01B04E33A00562CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3A16EB1B04E33A00562CEE /* PitchMyVoiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B3A16E61B04E33A00562CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B3A16CE1B04E33A00562CEE /* PitchMyVoice */;
+			targetProxy = 3B3A16E51B04E33A00562CEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B3A16D81B04E33A00562CEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3A16D91B04E33A00562CEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B3A16DD1B04E33A00562CEE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B3A16DE1B04E33A00562CEE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B3A16EC1B04E33A00562CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B3A16ED1B04E33A00562CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B3A16EF1B04E33A00562CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PitchMyVoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3B3A16F01B04E33A00562CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PitchMyVoice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3B3A16F21B04E33A00562CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PitchMyVoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchMyVoice.app/PitchMyVoice";
+			};
+			name = Debug;
+		};
+		3B3A16F31B04E33A00562CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PitchMyVoiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PitchMyVoice.app/PitchMyVoice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B3A16CA1B04E33A00562CEE /* Build configuration list for PBXProject "PitchMyVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3A16EC1B04E33A00562CEE /* Debug */,
+				3B3A16ED1B04E33A00562CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3A16EE1B04E33A00562CEE /* Build configuration list for PBXNativeTarget "PitchMyVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3A16EF1B04E33A00562CEE /* Debug */,
+				3B3A16F01B04E33A00562CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3A16F11B04E33A00562CEE /* Build configuration list for PBXNativeTarget "PitchMyVoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3A16F21B04E33A00562CEE /* Debug */,
+				3B3A16F31B04E33A00562CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B3A16C71B04E33A00562CEE /* Project object */;
+}
